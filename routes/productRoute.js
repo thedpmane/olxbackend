@@ -21,5 +21,4 @@ router.route("/product/delete/:id").delete(deleteProduct);
 
 router.route("/product/:id").get(getProductDetails);
 
-
 module.exports = router;
